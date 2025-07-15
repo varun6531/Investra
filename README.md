@@ -97,9 +97,9 @@ Before setting up the project, ensure you have the following installed:
 - **Linux**: `sudo apt install git` (Ubuntu/Debian) or `sudo yum install git` (CentOS/RHEL)
 
 ### Required Software
-- Ollama (for local LLM)
-- Redis (for caching)
-- Expo CLI (for mobile development)
+- Ollama (for local LLM and embedding model): install from website - [ollama.ai](https://ollama.ai)
+- Redis (for caching): install from website - [redis.io](https://redis.io/download)
+- Expo CLI (for mobile development): shown below in installation guide
 
 ### Install
 
