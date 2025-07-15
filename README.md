@@ -6,17 +6,17 @@ Try out the Base mode for RAG output based on The Basics for Investing in Stocks
 
 Try out Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities. Ask about current stock prices, market trends, or any financial questions - the AI will search for the latest information when the document doesn't contain the answer.
 
-On start you get to see mode options:
+## On start you get to see mode options:
 <img width="1920" height="1080" alt="Mode Options" src="https://github.com/user-attachments/assets/5fd7138d-8f71-4204-aa2c-bf71cf214759" />
 
-Base mode for RAG output in web app:
+## Base mode for RAG output in web app:
 <img width="1920" height="1080" alt="Base Mode Web" src="https://github.com/user-attachments/assets/f27586af-419b-4961-972d-a11376cba0ee" />
 
-Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in web app:
+## Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in web app:
 <img width="1920" height="1080" alt="Ultra Mode Web" src="https://github.com/user-attachments/assets/a0b98f8a-ee1e-4065-bbf5-64873610364d" />
 
 
-Base mode for RAG output in mobile app:
+## Base mode for RAG output in mobile app:
 <img width="567" height="1087" alt="Base Mode Mobile" src="https://github.com/user-attachments/assets/28bf58df-a256-4f27-a036-b9b3fc719dbb" />
 
 Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in mobile app:
