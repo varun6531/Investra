@@ -210,21 +210,21 @@ pip install -r requirements.txt
 ### 6. Install Backend Dependencies
 
 ```bash
-cd backend
+cd ../backend
 npm install
 ```
 
 ### 7. Install Frontend Dependencies
 
 ```bash
-cd frontend
+cd ../frontend
 npm install
 ```
 
 ### 8. Install Mobile Dependencies
 
 ```bash
-cd mobile
+cd ../mobile
 npm install
 ```
 ## Running Steps
@@ -236,7 +236,7 @@ The application consists of multiple services that need to run simultaneously. O
 ### Terminal 1: LLM Service
 
 ```bash
-cd llm-service
+cd ../llm-service
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 python main.py
 ```
@@ -246,7 +246,7 @@ The LLM service will start on http://localhost:8000
 ### Terminal 2: Backend Server
 
 ```bash
-cd backend
+cd ../backend
 npm start
 ```
 
@@ -255,7 +255,7 @@ The backend server will start on http://localhost:3001
 ### Terminal 3: Frontend (Web App)
 
 ```bash
-cd frontend
+cd ../frontend
 npm run dev
 ```
 
@@ -266,7 +266,7 @@ Open http://localhost:5173 to start the app!
 ### Terminal 4: Mobile App (Expo) [For now use with i command to open ios simulator as this is the only way to get localhost requests and responses]
 
 ```bash
-cd mobile
+cd ../mobile
 npx expo start
 ```
 
