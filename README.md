@@ -231,6 +231,8 @@ npm install
 
 The application consists of multiple services that need to run simultaneously. Open separate terminal windows for each service.
 
+### In conjunction with the terminals set up and running Redis (optional) and serving Ollama models from previous step we have the following terminals for running the application
+
 ### Terminal 1: LLM Service
 
 ```bash
