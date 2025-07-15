@@ -231,12 +231,12 @@ npm install
 
 The application consists of multiple services that need to run simultaneously. Open separate terminal windows for each service. Assuming root directory is Investra.
 
-## In conjunction with the terminals set up and running Redis (optional) and serving Ollama models from previous step we have the following terminals for running the application
+#### In conjunction with the terminals set up and running Redis (optional) and serving Ollama models from previous step we have the following terminals for running the application
 
 ### Terminal 1: LLM Service
 
 ```bash
-cd ../llm-service
+cd llm-service
 
 #if not already activated:
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -249,7 +249,7 @@ The LLM service will start on http://localhost:8000
 ### Terminal 2: Backend Server
 
 ```bash
-cd ../backend
+cd backend
 npm start
 ```
 
@@ -258,7 +258,7 @@ The backend server will start on http://localhost:3001
 ### Terminal 3: Frontend (Web App)
 
 ```bash
-cd ../frontend
+cd frontend
 npm run dev
 ```
 
@@ -269,7 +269,7 @@ Open http://localhost:5173 to start the app!
 ### Terminal 4: Mobile App (Expo) [For now use with i command to open ios simulator as this is the only way to get localhost requests and responses]
 
 ```bash
-cd ../mobile
+cd mobile
 npx expo start
 ```
 
