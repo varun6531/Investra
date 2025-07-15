@@ -189,14 +189,21 @@ npm install -g @expo/cli
 ```bash
 cd llm-service
 python -m venv .venv
+```
 
-# Activate virtual environment
-# On macOS/Linux:
+Activate virtual environment
+On macOS/Linux:
+```bash
 source .venv/bin/activate
-# On Windows:
+```
+ On Windows:
+```bash
 .venv\Scripts\activate
+```
+If getting an error on windows saying running scripts is disabled on this system [How to fix](https://stackoverflow.com/questions/69605313/vs-code-terminal-activate-ps1-cannot-be-loaded-because-running-scripts-is-disa)
 
-# Install Python dependencies
+Install Python dependencies
+```bash
 pip install -r requirements.txt
 ```
 
