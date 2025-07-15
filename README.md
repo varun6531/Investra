@@ -237,7 +237,10 @@ The application consists of multiple services that need to run simultaneously. O
 
 ```bash
 cd ../llm-service
+
+#if not already activated:
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
 python main.py
 ```
 
