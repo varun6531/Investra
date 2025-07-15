@@ -96,6 +96,13 @@ Before setting up the project, ensure you have the following installed:
 - **Windows**: Download from [git-scm.com](https://git-scm.com)
 - **Linux**: `sudo apt install git` (Ubuntu/Debian) or `sudo yum install git` (CentOS/RHEL)
 
+#### pip
+Included with Python installation
+`pip --version`
+
+If pip is not installed or not working, you can manually install it by downloading the get-pip.py script and running:
+`python get-pip.py`
+
 ### Required Software
 - Ollama (for local LLM and embedding model): install from website - [ollama.ai](https://ollama.ai)
 - Redis (for caching): install from website - [redis.io](https://redis.io/download)
