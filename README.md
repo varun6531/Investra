@@ -71,14 +71,14 @@ Before setting up the project, ensure you have the following installed:
 
 ### System Requirements
 
-#### Python 3.10 or higher  ([make sure python available as name of cmdlet in path](https://stackoverflow.com/questions/52332554/vscode-the-term-python-is-not-recognized-but-py-works))
+#### Python 3.10 or higher  ([make sure python available as name of cmdlet in path] (https://stackoverflow.com/questions/52332554/vscode-the-term-python-is-not-recognized-but-py-works))
 - **macOS**: 
   - **Option 1**: Download from [python.org](https://python.org/downloads)
   - **Option 2**: `brew install python`
 - **Windows**: Download from [python.org](https://python.org/downloads)
 - **Linux**: `sudo apt install python3` (Ubuntu/Debian) or `sudo yum install python3` (CentOS/RHEL)
 
-#### Node.js 18 or higher
+#### Node.js 20.19+ or 22.12+. or higher ⚠️ (REQUIRED or else vite will not run)
 - **macOS**: 
   - **Option 1**: Download from [nodejs.org](https://nodejs.org)
   - **Option 2**: `brew install node`
@@ -304,7 +304,7 @@ The Qdrant vector database is automatically initialized when the LLM service sta
 - React Router DOM v7.6.3 - Client-side routing
 - Axios v1.10.0 - HTTP client for API calls
 
-### Backend (Node.js)
+### Backend (Node.js 20.19+ or 22.12+.)
 - Express.js v5.1.0 - Web framework
 - CORS v2.8.5 - Cross-origin resource sharing
 - Multer v2.0.1 - File upload handling
