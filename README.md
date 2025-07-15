@@ -89,7 +89,7 @@ Before setting up the project, ensure you have the following installed:
 - Included with Node.js installation
 - Verify installation: `npm --version` and `npx --version`
 
-#### Git
+#### Git (make sure its available as name of cmdlet in path)
 - **macOS**: 
   - **Option 1**: Download from [git-scm.com](https://git-scm.com)
   - **Option 2**: `brew install git`
