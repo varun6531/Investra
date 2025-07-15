@@ -109,9 +109,9 @@ If pip is not installed or not working, you can manually install it by downloadi
 Note: Redis for windows needs linux subsystem/ubuntu, if you dont have these systems needed for download then redis will  not cache the prompt, yet the app works still, so it is entirely optional
 - Expo CLI (for mobile development): shown below in installation guide
 
-## Make sure to restart your system after installation (especially if updating path variables in windows)
+#### Make sure to restart your system after installation (especially if updating path variables in windows)
 
-### Install (make sure to run in new terminal instances wherever mentioned)
+## Install (make sure to run in new terminal instances wherever mentioned)
 
 ### 1. Clone the Repository
 
