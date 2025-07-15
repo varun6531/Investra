@@ -266,7 +266,7 @@ The frontend will start on http://localhost:5173
 
 Open http://localhost:5173 to start the app!
 
-### Terminal 4: Mobile App (Expo) [For now use with i command to open ios simulator as this is the only way to get localhost requests and responses]
+### Terminal 4: Mobile App (Expo) [Recommend running on mac and for now use with i command to open ios simulator as this is the only way to get localhost requests and responses]
 
 ```bash
 cd mobile
