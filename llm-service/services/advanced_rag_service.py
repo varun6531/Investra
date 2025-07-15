@@ -1,3 +1,13 @@
+"""
+advanced_rag_service.py
+
+What is this file for: Orchestrates RAG, stock data, and web search services to provide comprehensive financial answers.
+
+What the flow of the functions are: check_stock_needed() detects stock tickers in queries, get_stock_data() fetches real-time data, get_rag_answer() retrieves document context, and combine_and_generate_final_answer() merges all sources into a final response.
+
+How this service is used: Called by the main FastAPI server to process user queries and return answers with citations from multiple sources.
+"""
+
 from langchain_core.runnables import RunnableParallel, RunnableSequence, RunnableLambda
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser

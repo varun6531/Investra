@@ -1,3 +1,13 @@
+"""
+rag_service.py
+
+What is this file for: Provides basic RAG functionality using document retrieval and LLM generation for financial Q&A.
+
+What the flow of the functions are: get_answer() retrieves relevant document chunks, formats context with chat history, generates responses using LLM, and extracts citations from the answer to filter sources.
+
+How this service is used: Called by the main FastAPI server for basic document-based Q&A without stock data or web search capabilities.
+"""
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import OllamaLLM

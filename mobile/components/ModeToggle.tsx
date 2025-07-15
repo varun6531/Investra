@@ -1,3 +1,13 @@
+/*
+ModeToggle.tsx
+
+What is this file for: Mobile toggle component that allows users to switch between Base and Ultra modes with visual feedback and touch interactions.
+
+What the flow of the functions are: Component renders two TouchableOpacity buttons for mode selection, applies conditional styling based on ragMode prop, and calls setRagMode() callback when user taps to change modes.
+
+How this service is used: Displayed in the mobile chat interface header to provide easy mode switching between document-only RAG (Base) and enhanced RAG with stock data and web search (Ultra) modes.
+*/
+
 import React from 'react';
 import {
   View,

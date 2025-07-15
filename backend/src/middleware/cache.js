@@ -1,3 +1,13 @@
+/*
+cache.js
+
+What is this file for: Redis-based caching middleware that stores and retrieves chat responses to reduce API calls and improve performance.
+
+What the flow of the functions are: cacheMiddleware() checks Redis for existing responses using query and mode as keys, returns cached data on hit, and stores new responses on miss before forwarding to next middleware.
+
+How this service is used: Applied to chat endpoints in the Express server to cache identical queries and reduce load on the LLM service.
+*/
+
 const RedisCache = require('../services/redis');
 
 let cache = null;

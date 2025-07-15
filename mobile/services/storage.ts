@@ -1,3 +1,13 @@
+/*
+storage.ts
+
+What is this file for: Mobile storage service that manages chat sessions and current session state using AsyncStorage for persistent data across app sessions.
+
+What the flow of the functions are: saveChatSessions() stores session data as JSON, loadChatSessions() retrieves and parses stored sessions, saveCurrentSessionId() tracks active session, and clearAllData() removes all stored data for cleanup.
+
+How this service is used: Called by mobile ChatInterface to persist conversation history, maintain session state across app restarts, and provide data recovery capabilities for the mobile chat experience.
+*/
+
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { ChatSession, Message } from '../types';
 

@@ -1,3 +1,13 @@
+"""
+web_search_service.py
+
+What is this file for: Provides web search capabilities using SerpAPI to supplement document knowledge with current information.
+
+What the flow of the functions are: _initialize_serpapi() sets up Google search API, search() performs web queries, and should_use_web_search() determines when RAG answers need web supplementation based on insufficient indicators or current information requests.
+
+How this service is used: Integrated into the advanced RAG service as a fallback when document knowledge is insufficient or when users request current information not available in the reference document.
+"""
+
 from langchain_community.utilities.serpapi import SerpAPIWrapper
 from typing import Dict, Any, Optional, List
 import logging

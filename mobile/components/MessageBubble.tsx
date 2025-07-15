@@ -1,3 +1,13 @@
+/*
+MessageBubble.tsx
+
+What is this file for: Mobile message bubble component that renders individual chat messages with citations, service indicators, and interactive elements for the React Native app.
+
+What the flow of the functions are: renderAnswerWithCitations() processes text to highlight citations and stock tickers, renderServiceIndicators() shows which services were used, and renderFooter() displays web search queries and stock data with clickable links.
+
+How this service is used: Rendered by ChatInterface to display user and bot messages with proper styling, interactive citations that open URLs, and service usage badges for transparency.
+*/
+
 import React from 'react';
 import {
   View,

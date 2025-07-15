@@ -1,3 +1,13 @@
+/*
+redis.js
+
+What is this file for: Redis client wrapper that provides caching functionality for chat responses with automatic connection management and query normalization.
+
+What the flow of the functions are: constructor() establishes Redis connection with error handling, get() retrieves cached responses using normalized query keys, set() stores responses with TTL, and normalizeQuery() standardizes queries for consistent caching.
+
+How this service is used: Instantiated by the cache middleware to provide persistent caching layer that reduces duplicate LLM API calls and improves response times.
+*/
+
 const redis = require('redis');
 
 redis_url = 'redis://localhost:6379'

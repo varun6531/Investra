@@ -1,3 +1,13 @@
+/*
+ChatInterface.tsx
+
+What is this file for: Main chat interface component that handles message display, session management, and user interactions for the financial Q&A application.
+
+What the flow of the functions are: sendMessage() creates new sessions, calls chatService API, and updates message state, while session management functions handle localStorage persistence and session switching with automatic title generation.
+
+How this service is used: Core UI component that provides the chat experience with RAG mode switching, citation rendering, and multi-session support for both web and mobile platforms.
+*/
+
 import React, { useState, useRef, useEffect } from 'react';
 import type { Message, ChatHistoryItem, Source } from '../types';
 import { chatService } from '../services/api';

@@ -1,3 +1,13 @@
+"""
+document_processor.py
+
+What is this file for: Processes PDF documents into chunks for vector storage and manages document loading from text files.
+
+What the flow of the functions are: process_pdf() loads PDF pages, splits them into chunks with metadata, and saves to text file, while load_from_txt() reads pre-processed chunks from text files for faster loading.
+
+How this service is used: Called during LLM service initialization to prepare the reference document for RAG operations and vector storage.
+"""
+
 import logging
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document

@@ -1,3 +1,13 @@
+/*
+api.ts
+
+What is this file for: API service layer that handles communication between the frontend and backend server for chat functionality.
+
+What the flow of the functions are: sendMessage() determines the correct endpoint based on mode (normal vs advanced), formats the request with chat history and session data, and returns the structured response from the backend API.
+
+How this service is used: Called by ChatInterface components to send user messages and receive AI responses with citations and service usage indicators from the LLM service.
+*/
+
 import axios from 'axios';
 import type { ChatRequest, ChatResponse } from '../types';
 

@@ -1,3 +1,13 @@
+"""
+stock_service.py
+
+What is this file for: Provides real-time stock data retrieval using Polygon.io API for financial ticker information and news.
+
+What the flow of the functions are: extract_stock_tickers() identifies stock symbols in queries, get_stock_data() fetches price data, news, and financials from Polygon API, and should_use_stock_api() determines when stock data is needed.
+
+How this service is used: Integrated into the advanced RAG service to provide real-time stock information when users ask about specific companies or market data.
+"""
+
 from langchain_community.utilities.polygon import PolygonAPIWrapper
 from langchain_community.tools.polygon.aggregates import PolygonAggregates
 from langchain_community.tools.polygon.financials import PolygonFinancials

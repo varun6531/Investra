@@ -1,3 +1,13 @@
+"""
+main.py
+
+What is this file for: FastAPI server that provides LLM chat endpoints with RAG, stock data, and web search capabilities.
+
+What the flow of the functions are: initialize_ollama() sets up embeddings and LLM models, initialize_services() creates all service instances, and chat endpoints process user queries through the RAG pipeline.
+
+How this service is used: Receives chat requests from the backend API gateway and returns AI-generated responses with citations and service usage indicators.
+"""
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel

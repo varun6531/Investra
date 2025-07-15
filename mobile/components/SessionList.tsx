@@ -1,3 +1,13 @@
+/*
+SessionList.tsx
+
+What is this file for: Mobile session list component that displays chat history and allows users to switch between different conversations with swipe and touch interactions.
+
+What the flow of the functions are: Component renders a ScrollView of session items with pending indicators, onSessionSelect() switches to selected conversation, onSessionDelete() removes sessions with confirmation, and onNewChat() creates fresh conversations.
+
+How this service is used: Displayed as an overlay in the mobile chat interface to provide session management functionality, allowing users to navigate between multiple chat conversations and maintain conversation history.
+*/
+
 import React from 'react';
 import {
   View,

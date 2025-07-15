@@ -1,3 +1,13 @@
+/*
+api.ts
+
+What is this file for: Mobile API service layer that handles communication between the React Native app and backend server for chat functionality.
+
+What the flow of the functions are: sendMessage() determines the correct endpoint based on mode (normal vs advanced), formats the request with chat history and session data, and returns the structured response from the backend API optimized for mobile.
+
+How this service is used: Called by mobile ChatInterface components to send user messages and receive AI responses with citations and service usage indicators from the LLM service, configured for iOS Simulator localhost access.
+*/
+
 import axios from 'axios';
 import type { ChatRequest, ChatResponse } from '../types';
 

@@ -1,3 +1,13 @@
+/*
+server.js
+
+What is this file for: Express.js API gateway that routes chat requests to the Python LLM service and handles CORS and caching.
+
+What the flow of the functions are: /api/chat endpoint forwards requests to LLM service advanced mode, /api/chat/normal endpoint forwards to basic RAG mode, and cacheMiddleware reduces duplicate API calls using Redis.
+
+How this service is used: Acts as the main API gateway between frontend/mobile apps and the Python LLM service, providing unified endpoints and error handling.
+*/
+
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');

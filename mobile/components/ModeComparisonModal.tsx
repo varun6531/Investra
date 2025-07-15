@@ -1,3 +1,13 @@
+/*
+ModeComparisonModal.tsx
+
+What is this file for: Mobile modal component that explains the difference between Base and Ultra modes to help users choose their preferred experience on React Native.
+
+What the flow of the functions are: Component renders as a Modal with ScrollView for content, displays feature comparison between modes with visual indicators and touch interactions, and onClose() saves user preference to AsyncStorage to prevent future displays.
+
+How this service is used: Shown to new mobile users on first app launch to explain the application's dual-mode functionality and help them understand which mode suits their needs with native mobile UI patterns.
+*/
+
 import React from 'react';
 import {
   View,

@@ -1,3 +1,13 @@
+"""
+vector_store.py
+
+What is this file for: Manages Qdrant vector database for storing and retrieving document embeddings for similarity search.
+
+What the flow of the functions are: _initialize_client() sets up Qdrant connection, _initialize_collection() creates or connects to existing collection, add_documents() stores document chunks with embeddings, and get_retriever() creates search interface for RAG operations.
+
+How this service is used: Provides the core vector storage and retrieval functionality for the RAG system, enabling semantic search across financial documents.
+"""
+
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams

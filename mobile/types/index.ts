@@ -1,3 +1,13 @@
+/*
+index.ts
+
+What is this file for: TypeScript type definitions for the mobile chat application including message structures, API requests/responses, and mobile-specific data models.
+
+What the flow of the functions are: Defines Message interface for mobile chat bubbles, ChatSession interface for session management, ChatRequest/ChatResponse for API communication, and HealthResponse for service status monitoring.
+
+How this service is used: Provides type safety across the mobile application, ensuring consistent data structures between React Native components and API calls for messages, sources, and service usage indicators.
+*/
+
 export interface Message {
   id: string;
   text: string;

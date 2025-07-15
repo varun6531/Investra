@@ -1,3 +1,13 @@
+/*
+ModeComparisonModal.tsx
+
+What is this file for: Modal component that explains the difference between Base and Ultra modes to help users choose their preferred experience.
+
+What the flow of the functions are: Component renders conditionally based on isOpen prop, displays feature comparison between modes with visual indicators, and onClose() saves user preference to localStorage to prevent future displays.
+
+How this service is used: Shown to new users on first visit to explain the application's dual-mode functionality and help them understand which mode suits their needs.
+*/
+
 import React from 'react';
 
 interface ModeComparisonModalProps {

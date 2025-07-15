@@ -1,3 +1,13 @@
+/*
+index.ts
+
+What is this file for: TypeScript type definitions for the chat application including message structures, API requests/responses, and data models.
+
+What the flow of the functions are: Defines Message interface for chat bubbles, Source interface for citations, ChatRequest/ChatResponse for API communication, and ChatHistoryItem for conversation context management.
+
+How this service is used: Provides type safety across the frontend application, ensuring consistent data structures between components and API calls for messages, sources, and service usage indicators.
+*/
+
 export interface Message {
   id: string;
   text: string;
