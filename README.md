@@ -8,7 +8,7 @@ Start with the Base mode for RAG output based on The Basics for Investing in Sto
 
 Toggle on top right to Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities. Ask about current stock prices, market trends, or any financial questions - the AI will search for the latest information when the document doesn't contain the answer.
 
-See below for app pages, feature completion, requirements, installion, running, tech stack used, reflection and plan for future. 
+See below for app pages, feature completion, requirements, installation, running, tech stack used, reflection and plan for future. 
 
 ## On start you get to see mode options, click Get Started with Investra:
 <img width="1920" height="1080" alt="Mode Options" src="https://github.com/user-attachments/assets/5fd7138d-8f71-4204-aa2c-bf71cf214759" />
