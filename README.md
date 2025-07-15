@@ -84,6 +84,7 @@ Before setting up the project, ensure you have the following installed:
   - **Option 2**: `brew install node`
 - **Windows**: Download from [nodejs.org](https://nodejs.org)
 - **Linux**: Use NodeSource repository or download from [nodejs.org](https://nodejs.org)
+- make sure `node --version` outputs 20.19+ or 22.12+. or higher
 
 #### npm and npx  ([make sure npm/npx available as name of cmdlet in path](https://stackoverflow.com/questions/20992723/npm-is-not-recognized-as-internal-or-external-command-operable-program-or-bat))
 - Included with Node.js installation
