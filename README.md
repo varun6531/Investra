@@ -1,6 +1,8 @@
 # Investra - Financial Chat Application
 
-A multi-platform financial chat application with AI-powered document analysis, real-time stock data, and web search capabilities built using Nodejs, Typescript, React, React Native, Python, Langchain and powered by qdrant vector database and ollama models - llama3.2:3b for llm and nomic-embed-text for embedding model
+A multi-platform financial chat application with AI-powered document analysis, real-time stock data, and web search capabilities.
+
+#### Built using Nodejs, Typescript, React, React Native, Python, Langchain and powered by qdrant vector database and ollama models - llama3.2:3b for llm and nomic-embed-text for embedding model
 
 Start with the Base mode for RAG output based on The Basics for Investing in Stocks by the Editors of Kiplinger's Personal Finance
 
