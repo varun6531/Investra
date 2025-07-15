@@ -23,7 +23,7 @@ See below for app pages, feature completion, requirements, installation, running
 ## Base mode for RAG output in mobile app:
 <img width="567" height="1087" alt="Base Mode Mobile" src="https://github.com/user-attachments/assets/28bf58df-a256-4f27-a036-b9b3fc719dbb" />
 
-Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in mobile app (switched modes with toggle on top right):
+## Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in mobile app (switched modes with toggle on top right):
 <img width="567" height="1087" alt="Ultra Mode Mobile" src="https://github.com/user-attachments/assets/6340b170-1e4d-4f46-97c4-15b2626483a4" />
 
 
@@ -71,7 +71,7 @@ Before setting up the project, ensure you have the following installed:
 
 ### System Requirements
 
-#### Python 3.10 or higher  ([make sure python available as name of cmdlet in path] (https://stackoverflow.com/questions/52332554/vscode-the-term-python-is-not-recognized-but-py-works))
+#### Python 3.10 or higher  ([make sure python available as name of cmdlet in path](https://stackoverflow.com/questions/52332554/vscode-the-term-python-is-not-recognized-but-py-works))
 - **macOS**: 
   - **Option 1**: Download from [python.org](https://python.org/downloads)
   - **Option 2**: `brew install python`
