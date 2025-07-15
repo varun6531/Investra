@@ -10,20 +10,20 @@ Toggle on top right to Ultra mode for RAG + Enhanced with real-time stock data a
 
 See below for app pages, feature completion, requirements, installion, running, tech stack used, reflection and plan for future. 
 
-## On start you get to see mode options:
+## On start you get to see mode options, click continue:
 <img width="1920" height="1080" alt="Mode Options" src="https://github.com/user-attachments/assets/5fd7138d-8f71-4204-aa2c-bf71cf214759" />
 
 ## Base mode for RAG output in web app:
 <img width="1920" height="1080" alt="Base Mode Web" src="https://github.com/user-attachments/assets/f27586af-419b-4961-972d-a11376cba0ee" />
 
-## Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in web app:
+## Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in web app (switched modes with toggle on top right):
 <img width="1920" height="1080" alt="Ultra Mode Web" src="https://github.com/user-attachments/assets/a0b98f8a-ee1e-4065-bbf5-64873610364d" />
 
 
 ## Base mode for RAG output in mobile app:
 <img width="567" height="1087" alt="Base Mode Mobile" src="https://github.com/user-attachments/assets/28bf58df-a256-4f27-a036-b9b3fc719dbb" />
 
-Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in mobile app:
+Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities in mobile app (switched modes with toggle on top right):
 <img width="567" height="1087" alt="Ultra Mode Mobile" src="https://github.com/user-attachments/assets/6340b170-1e4d-4f46-97c4-15b2626483a4" />
 
 
