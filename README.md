@@ -108,6 +108,8 @@ If pip is not installed or not working, you can manually install it by downloadi
 - Redis (for caching): install from website - [redis.io](https://redis.io/download)
 - Expo CLI (for mobile development): shown below in installation guide
 
+## Make sure to restart your system after installation (especially if updating path variables in windows)
+
 ### Install
 
 ### 1. Clone the Repository
