@@ -128,7 +128,7 @@ cd Investra
 
 #### Windows:
 - Download from [ollama.ai](https://ollama.ai) and run the installer
-- Add Ollama to your system PATH if prompted
+- Add Ollama to your system PATH if prompted (may have to restart)
 
 #### Linux:
 - Download from [ollama.ai](https://ollama.ai) and follow the installation instructions
