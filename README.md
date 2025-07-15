@@ -71,7 +71,7 @@ Before setting up the project, ensure you have the following installed:
 
 ### System Requirements
 
-#### Python 3.10 or higher
+#### Python 3.10 or higher  ([make sure python available as name of cmdlet in path](https://stackoverflow.com/questions/52332554/vscode-the-term-python-is-not-recognized-but-py-works))
 - **macOS**: 
   - **Option 1**: Download from [python.org](https://python.org/downloads)
   - **Option 2**: `brew install python`
@@ -85,11 +85,11 @@ Before setting up the project, ensure you have the following installed:
 - **Windows**: Download from [nodejs.org](https://nodejs.org)
 - **Linux**: Use NodeSource repository or download from [nodejs.org](https://nodejs.org)
 
-#### npm and npx
+#### npm and npx  ([make sure npm/npx available as name of cmdlet in path](https://stackoverflow.com/questions/20992723/npm-is-not-recognized-as-internal-or-external-command-operable-program-or-bat))
 - Included with Node.js installation
 - Verify installation: `npm --version` and `npx --version`
 
-#### Git (make sure its available as name of cmdlet in path)
+#### Git ([make sure git available as name of cmdlet in path](https://stackoverflow.com/questions/4492979/error-git-is-not-recognized-as-an-internal-or-external-command))
 - **macOS**: 
   - **Option 1**: Download from [git-scm.com](https://git-scm.com)
   - **Option 2**: `brew install git`
