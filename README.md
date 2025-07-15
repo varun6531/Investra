@@ -145,12 +145,12 @@ ollama serve
 ### 3. Install and Run Redis in a new terminal (Optional for prompt caching)
 
 #### macOS:
-- **Option 1 (Homebrew)**: 
+- **Option 1 (Homebrew)**:  (Optional, can skip)
   ```bash
   brew install redis
   redis-server
   ```
-- **Option 2 (Manual)**: 
+- **Option 2 (Manual)**:  (Optional, can skip)
   ```bash
   # Download and compile from source
   wget http://download.redis.io/redis-stable.tar.gz
@@ -161,14 +161,14 @@ ollama serve
   redis-server
   ```
 
-#### Ubuntu/Debian:
+#### Ubuntu/Debian: (Optional, can skip)
 ```bash
 sudo apt update
 sudo apt install redis-server
 redis-server
 ```
 
-#### Windows:
+#### Windows: (Optional, can skip)
 - **Option 1 (WSL)**: Follow Ubuntu/Debian instructions in WSL
 - **Option 2 (Native)**: 
   - Download Redis for Windows from [redis.io](https://redis.io/download)
