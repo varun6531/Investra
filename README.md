@@ -105,7 +105,8 @@ If pip is not installed or not working, you can manually install it by downloadi
 
 ### Downloaded Software
 - Ollama (for local LLM and embedding model): install from website - [ollama.ai](https://ollama.com/download)
-- Redis (Optional though recomended for caching): install from website - [redis.io](https://redis.io/download](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/))
+- Redis (Optional though recomended for mac for caching): install from website - [redis.io](https://redis.io/download](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/))
+Note: Redis for windows needs linux subsystem/ubuntu, if you dont have these systems needed for download then redis will  not cache the prompt, yet the app works still, so it is entirely optional
 - Expo CLI (for mobile development): shown below in installation guide
 
 ## Make sure to restart your system after installation (especially if updating path variables in windows)
