@@ -6,6 +6,8 @@ Try out the Base mode for RAG output based on The Basics for Investing in Stocks
 
 Try out Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities. Ask about current stock prices, market trends, or any financial questions - the AI will search for the latest information when the document doesn't contain the answer.
 
+/Users/varun/Desktop/Financial Chat App/App Use Images/Mode Options.png
+
 ## Complete Features
 
 ### **Milestone 1: Basic Chat UI with Contextual Answers** ✅
