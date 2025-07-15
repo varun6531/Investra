@@ -141,6 +141,7 @@ ollama pull llama3.2:3b
 ollama pull nomic-embed-text
 ollama serve
 ```
+if after `ollama serve` you are getting an error like: 'Error: listen tcp 127.0.0.1:11434: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.', this means ollama application is using the port so make sure to quit the app (or kill the process using that port) and then do `ollama serve` again
 
 ### 3. Install and Run Redis in a new terminal (Optional for prompt caching)
 
