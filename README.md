@@ -10,7 +10,7 @@ Toggle on top right to Ultra mode for RAG + Enhanced with real-time stock data a
 
 See below for app pages, feature completion, requirements, installion, running, tech stack used, reflection and plan for future. 
 
-## On start you get to see mode options, click continue:
+## On start you get to see mode options, click Get Started with Investra:
 <img width="1920" height="1080" alt="Mode Options" src="https://github.com/user-attachments/assets/5fd7138d-8f71-4204-aa2c-bf71cf214759" />
 
 ## Base mode for RAG output in web app:
