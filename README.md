@@ -111,7 +111,7 @@ Note: Redis for windows needs linux subsystem/ubuntu, if you dont have these sys
 
 ## Make sure to restart your system after installation (especially if updating path variables in windows)
 
-### Install
+### Install (make sure to run in new terminal instances wherever mentioned)
 
 ### 1. Clone the Repository
 
