@@ -4,7 +4,7 @@ A multi-platform financial chat application with AI-powered document analysis, r
 
 #### Built using Nodejs, Typescript, React, React Native, Python, Langchain and powered by qdrant vector database, serpapi for web search, polygon io api for stock api and ollama models: llama3.2:3b for llm and nomic-embed-text for embedding model
 
-Start with the Base mode for RAG output based on The Basics for Investing in Stocks by the Editors of Kiplinger's Personal Finance
+Start with the Base mode for RAG output based on The Basics for Investing in Stocks by the Editors of Kiplinger's Personal Finance.
 
 Toggle on top right to Ultra mode for RAG + Enhanced with real-time stock data and web search capabilities. Ask about current stock prices, market trends, or any financial questions - the AI will search for the latest information when the document doesn't contain the answer.
 
